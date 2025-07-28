@@ -1,15 +1,29 @@
 # Entregable 1: Documento de requerimientos y análisis
 
-**Requerimientos funcionales:**
+1. ¿Qué van a hacer?
 
-- El sistema debe permitir crear, leer, actualizar y eliminar usuarios.
-- Debe existir una interfaz web para interactuar con la API.
-- La API debe exponer endpoints REST para la gestión de usuarios.
+   - Vamos a crear un sistema para gestionar usuarios, permitiendo crear, ver, modificar y eliminar información de cada usuario.
 
-**Requerimientos no funcionales:**
+2. ¿Para quién es?
 
-- El sistema debe ser desarrollado en Node.js y Express.
-- La base de datos debe ser MongoDB.
+   - El sistema está dirigido a personas o empresas que necesitan administrar una lista de usuarios, por ejemplo, para un registro o control de acceso.
 
-**Análisis:**
-El sistema simula la gestión de usuarios en una base de datos, permitiendo operaciones CRUD y acceso desde una interfaz web sencilla.
+3. ¿Qué problema resuelve?
+
+   - Facilita la organización y manejo de datos de usuarios, permitiendo realizar cambios fácilmente desde una página web.
+
+4. Contenido mínimo
+
+   - Cada usuario tendrá: nombre, apellido, correo electrónico y un identificador único.
+
+5. Primer diseño visual
+
+   - (Aquí se puede incluir un boceto simple de la página principal y del formulario para agregar o modificar usuarios. Puede ser un dibujo, imagen o captura de pantalla de un prototipo.)
+
+6. Requerimientos técnicos
+
+   - El sistema se desarrollará usando Node.js y Express.
+   - La base de datos será MongoDB.
+
+7. Resumen
+   - El sistema permite gestionar usuarios con operaciones básicas (crear, leer, actualizar, eliminar) y acceso desde una interfaz web sencilla.
